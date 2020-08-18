@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  exhibition_name: MyString
+  place: MyString
+  adress: MyString
+  detail: MyString
+  category: MyString
+
+two:
+  exhibition_name: MyString
+  place: MyString
+  adress: MyString
+  detail: MyString
+  category: MyString
