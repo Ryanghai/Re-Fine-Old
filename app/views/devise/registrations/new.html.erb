@@ -1,3 +1,69 @@
+<div class="container">
+        <div class="header">
+            <div class="header_logo">
+                <img class="header_icon" src="logo.svg">
+                <h1>Re:Find</h1>
+            </div>
+            <div class="header_indent">
+                <ul>
+                    <li><a href="#">ログイン</a></li>
+                    <li><a href="#">新規会員登録</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="entry">
+        <h1>新規会員登録</h1>
+        <p>アイコン</p>
+        <img class="icon" src="icon.jpg">
+        <div class="entry_form">
+            <form>
+                <div class="item">
+                    <label class="label">お名前</label><br>
+                    <input class="inputs" type="text" name="name">
+                </div>
+                <div class="item">
+                    <label class="label">ユーザー名</label><br>
+                    <input class="inputs" type="text" name="id">
+                </div>
+                <div class="item">
+                    <label class="label">メールアドレス</label><br>
+                    <input class="inputs" type="email" name="email">
+                </div>
+                <div class="item">
+                    <label class="label">パスワード</label><br>
+                    <input class="inputs" type="password" name="password">
+                </div>
+                <div class="item">
+                    <label class="label">自己紹介</label><br>
+                    <textarea class="inputs"></textarea>
+                </div>
+                <div class="item">
+                    <p>好きなジャンル</p>
+                    <input class="category" type="checkbox" value="東洋美術"><label for="western">東洋美術</label>
+                    <input class="category" type="checkbox" value="西洋美術"><label for="orient">西洋美術</label>
+                    <input class="category" type="checkbox" value="彫刻"><label for="sculptuure">彫刻</label>
+                    <input class="category" type="checkbox" value="現代アート"><label for="orient">現代アート</label>
+                    <input class="category" type="checkbox" value="立体芸術"><label for="three-demitional">立体芸術</label>
+                    <input class="category" type="checkbox" value="その他"><label for="ect">その他</label>
+                </div>
+                <div class="btn_area">
+                    <input type="submit" value="会員登録">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_container">
+            <img class="footer_logo" src="logo.svg">
+            <div class="footer_list">
+                <ul>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">会員登録</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 <h2>Sign up</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
